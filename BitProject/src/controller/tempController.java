@@ -34,13 +34,13 @@ public class tempController {
 	}
 	
 	@RequestMapping("modifyMember.do")
-	public ModelAndView modify_MemberInfoForm(){
+	public ModelAndView modifyMember(){
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("modifyMember");		
 		return mav;		
 	}
 	
-	@RequestMapping("deleteMemeber.do")
+	@RequestMapping("deleteMember.do")
 	public ModelAndView deleteMember(){
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("deleteMember");		
