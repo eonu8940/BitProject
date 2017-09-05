@@ -17,4 +17,21 @@ public class tempController {
 		return mav;
 	}
 	
+	@RequestMapping("dibsCheck.do")
+	public ModelAndView dibsCheck() {
+		ModelAndView mav = new ModelAndView();
+		
+		mav.setViewName("dibsCheck");
+		
+		return mav;
+	}
+	
+	@RequestMapping("shoppingBasketCheck.do")
+	public ModelAndView shoppingBasketCheck() {
+		ModelAndView mav = new ModelAndView();
+		
+		mav.setViewName("shoppingBasketCheck");
+		
+		return mav;
+	}
 }
