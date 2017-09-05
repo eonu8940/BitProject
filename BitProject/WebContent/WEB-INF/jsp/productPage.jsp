@@ -3,10 +3,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<script src="/BitProject/js/productScript.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 </head>
 <body>
-<div></div>
 	<div class="productPage_Main" style="margin: 0px 200px 0px 200px;">
 		<div class="product_top">
 			<div class="product_img" style="width: 49%; display: inline-block;">
@@ -38,8 +38,8 @@
 					<div class="label_price" style="width: 50%; float: left;">2500<span>원</span></div>
 				</div>
 				<div class="product_btn_other">
-					<input type="button" value="찜">
-					<input type="button" value="장바구니">
+					<input type="button" value="찜" onclick="dibsCheck()">
+					<input type="button" value="장바구니" onclick="shoppingBasketCheck()">
 					<input type="button" value="주문하기">
 				</div>
 			</div>
@@ -52,9 +52,15 @@
 		<div class="product_bottom">
 			<div class="product_content">
 				<h3> 상품평 or 후기</h3>
+				<div class="product_content_btn" style="float: right;">
+					<input type="button" value="등록"> 
+				</div>
 			</div>
 			<div class="product_inquiry">
 				<h3> 상품 문의</h3>
+				<div class="product_inquiry_btn" style="float: right;">
+					<input type="button" value="등록"> 
+				</div>
 			</div>
 		</div>
 	</div>
