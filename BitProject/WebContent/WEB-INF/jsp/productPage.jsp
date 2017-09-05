@@ -52,9 +52,15 @@
 		<div class="product_bottom">
 			<div class="product_content">
 				<h3> 상품평 or 후기</h3>
+				<div class="product_content_btn" style="float: right;">
+					<input type="button" value="글쓰기"> 
+				</div>
 			</div>
 			<div class="product_inquiry">
 				<h3> 상품 문의</h3>
+				<div class="product_inquiry_btn" style="float: right;">
+					<input type="button" value="글쓰기"> 
+				</div>
 			</div>
 		</div>
 	</div>
